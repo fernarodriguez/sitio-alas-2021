@@ -1,0 +1,14 @@
+body{
+    background-color: aqua;
+    background-image: url('images/pattern.jpg');
+    background-repeat: repeat;
+}
+.cabecera,
+.contenedor{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.contenedor{
+    background-color: white;
+}
