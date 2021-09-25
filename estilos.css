@@ -1,7 +1,15 @@
+:root{
+    --naranja:#F90;
+    --negro: black;
+    --blanco: white; 
+}
+
+
 body{
     background-color: aqua;
     background-image: url('images/pattern.jpg');
     background-repeat: repeat;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .cabecera,
 .contenedor{
@@ -9,6 +17,21 @@ body{
     margin: auto;
 }
 
+.cabecera{
+    
+    display: flex;
+    padding-bottom: 8px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.cabecera h1{
+    color: var(--naranja);
+    font-size: 24px;
+}
+
 .contenedor{
-    background-color: white;
+    background-color: var(--blanco);
 }
